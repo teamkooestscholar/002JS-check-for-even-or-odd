@@ -22,7 +22,7 @@ function checkEvenOrOdd(number) {
 
 * Implement the function without using conditional statements (if-else). **[+5 extra credit points]**
 
-* Extend the function to check if the input is a positive or negative even or odd number. **[+10 extra credit points]**
+* Extend the function to check if the input is a positive or negative even or odd number. **[+5 extra credit points]**
 
 ## How to answer?
 
