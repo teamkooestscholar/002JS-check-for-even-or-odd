@@ -1,0 +1,26 @@
+.container{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+}
+
+.user-input input{
+border: none;
+background-color: rgb(213, 210, 210);
+padding: 10px;
+border-radius: 15px;
+}
+
+.user-input label{
+    font-size: 20px;
+}
+
+.user-input button{
+    border: none;
+    padding: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.user-input button:hover{
+    background-color: aqua;
+}
