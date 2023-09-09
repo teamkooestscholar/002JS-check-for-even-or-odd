@@ -1,3 +1,4 @@
+// Use HTML Live Server for User Input
 function method1EvenOrOdd(n) {
   if (Number.isInteger(n) === true) {
     check = n % 2;
