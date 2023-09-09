@@ -46,7 +46,7 @@ function method2EvenOrOdd(n) {
     while (n > 0) {
       return "Positive Odd Number";
     }
-    while (n != 0) {
+    while (n !== 0) {
       return "Negative Odd Number";
     }
   }
