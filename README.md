@@ -18,11 +18,11 @@ function checkEvenOrOdd(number) {
 
 ## Bonus Challenges
 
-* Modify the function to handle non-integer inputs gracefully. Return an error message if the input is not an integer. **[+5 extra credit points]**
+* Modify the function to handle non-integer inputs gracefully. Return an error message if the input is not an integer. (Hint: Use `typeof` operator). **[+5 extra credit points]**
 
-* Implement the function without using conditional statements (if-else). **[+5 extra credit points]**
+* Implement the function without using conditional statements (if-else). (Hint: Use `Math.floor` and `Math.abs` functions). **[+5 extra credit points]**
 
-* Extend the function to check if the input is a positive or negative even or odd number. **[+5 extra credit points]**
+* Extend the function to check if the input is a positive or negative even or odd number. (Hint: Use `Math.sign` function). **[+5 extra credit points]**
 
 ## How to answer?
 
