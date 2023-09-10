@@ -1,9 +1,6 @@
 // Function to check if a number is even or odd
 // function checkEvenOrOdd(_) {
   // Put your code here
-<<<<<<< HEAD
-// }
-=======
 // }
 
 
@@ -40,18 +37,7 @@ function checkEvenOrOdd(number) {
   return result;
  
 }
->>>>>>> 819b564617a41d6ef6e8a0f800a28277149a1076
 
-<<<<<<< HEAD
-
-function checkEvenOrOdd(number) {
-  if (number % 2 === 0) {
-    return "Even";
-  } else {
-    return "Odd";
-  }
-}
-=======
 
 const usernumber = prompt("Input a number ");
 
@@ -69,4 +55,3 @@ console.log('The Result is determined to be = ' + answer );
 
 
 
->>>>>>> 819b564617a41d6ef6e8a0f800a28277149a1076
