@@ -19,7 +19,7 @@
 }
 
 // Test cases
-console.log(checkEvenOrOdd(-24));       // "Positive Even"
-console.log(checkEvenOrOdd(7));      // "Negative Odd"
+console.log(checkEvenOrOdd(-24));       // "negative Even"
+console.log(checkEvenOrOdd(7));      // "positive Odd"
 console.log(checkEvenOrOdd(0));       // "Zero"
 console.log(checkEvenOrOdd(2.7));     // "Error: Input is not an integer"
