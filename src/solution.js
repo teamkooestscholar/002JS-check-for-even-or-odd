@@ -15,34 +15,40 @@ const prompt=require("prompt-sync")({sigint:true});
 
 
 
-// program to check if the number is even or odd
-// take input from the user
-const number = prompt("Input a number: ");
+function checkEvenOrOdd(number) {
 
-// ternary operator
-const result = (number % 2  == 0) ? "even" : "odd";
+  //This uses an ternary operator 
+  // it is an alternative to if else statements by making boolean arguments
 
+  const result =
+    !Number.isInteger(number)
+      ? "Error: Input is not an integer" // the triple equal (===) means equal 
+                                         //without type which means the type of value must be match the type of variable
+      : number === 0
+      ? "Zero"
+      : number > 0
+      ? number % 2 === 0
+        ? "Positive Even"                //I decided to combine both the even odd and positive and negative checks
+        : "Positive Odd"
+      : number % 2 === 0
+      ? "Negative Even"
+      : "Negative Odd";
 
-
-
-
-//          /^: This symbol ^ is the start anchor, and it asserts that the regex pattern must match at the start of the string.
-
-//          [-]?: This part of the pattern allows for an optional minus sign (-). The [-] specifies that either a hyphen or nothing should match.
-
-//         \\d: This part matches a digit from 0 to 9. The \\ is used to escape the backslash, which is a special character in regular expressions.
-
-
-
-function isNumber(value){
-  return /^-?\\d/.test(value)
+  return result;
+ 
 }
 
 
-// display the result
-console.log(`The number is ${result}.`);
+const usernumber = prompt("Input a number ");
 
-console.log( "The input is a " + isNumber(number))
+const number = parseInt(usernumber);
+
+
+const answer = checkEvenOrOdd(number)
+
+
+console.log('The Result is determined to be = ' + answer );
+
 
 
 
