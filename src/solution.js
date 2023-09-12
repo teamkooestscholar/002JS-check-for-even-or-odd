@@ -1,25 +1,14 @@
- // Bonus Challenge 1
- const isInteger = typeof number === 'number' && Number.isInteger(number);
+// Function to check if a number is even or odd
+function checkEvenOrOdd(number) {
+  const inInteger = Number.isInteger(number);
+  const oddEven = inInteger && (number % 2 === 0) ? "Even" : inInteger ? "Odd" : "Error!!!";
+  const pnInteger = inInteger && (number > 0) ? "positive" : inInteger && (number < 0) ? "negative" ;
 
- // Bonus Challenge 2
- const results = ["Even", "Odd"];
- const index = (Math.abs(Math.floor(number)) % 2);
- const result = results[index];
-
- if (!isInteger) {
-   return "Error:The number is not and integer";
- }
-
- // Bonus Challenge 3
- if (number === 0) {
-   return "Zero";
- }
-
- return (result === "Even" ? "Even" : "Odd") + (Math.sign(number) === 1 ? " Positive" : " Negative");
+  return `${pnInteger} ${oddEven}`;
 }
 
-// Test cases
-console.log(checkEvenOrOdd(-24));       // "negative Even"
-console.log(checkEvenOrOdd(7));      // "positive Odd"
-console.log(checkEvenOrOdd(0));       // "Zero"
-console.log(checkEvenOrOdd(2.7));     // "Error: Input is not an integer"
+console.log(checkEvenOrOdd(5)); // "positive Even"
+console.log(checkEvenOrOdd(10)); // "positive Odd"
+console.log(checkEvenOrOdd(-2)); // "negative Odd"
+console.log(checkEvenOrOdd(-7)); // "negative Even"
+console.log(checkEvenOrOdd(12.5)); // "Error!!!"
