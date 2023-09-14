@@ -1,4 +1,10 @@
 // Function to check if a number is even or odd
-function checkEvenOrOdd(_) {
-  // Put your code here
+
+const number = prompt("Please Enter A Number: " )
+if(number % 2 == 0) {
+  console.log ("The Number You Entered Is Even: ")
+}
+
+else{
+  console.log("The Number You Entered Is Odd: ")
 }
