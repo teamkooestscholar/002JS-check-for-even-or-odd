@@ -15,6 +15,7 @@ function checkEvenOrOdd(number) {
   return output;
 }
 
+
 console.log(checkEvenOrOdd(2));
 console.log(checkEvenOrOdd(3));
 console.log(checkEvenOrOdd(-4));
