@@ -12,3 +12,5 @@ console.log(checkEvenOrOdd(9)); // "positive Even"
 console.log(checkEvenOrOdd(-8)); // "negative Odd"
 console.log(checkEvenOrOdd(0)); // "zero Even"
 console.log(checkEvenOrOdd(3.1)); // "Error: Input is not an integer"
+
+//edit
